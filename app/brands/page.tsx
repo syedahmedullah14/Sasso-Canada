@@ -9,7 +9,7 @@ export default function BrandsPage() {
       <section className="relative h-[50vh] flex items-center">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1581092160607-ee22731c9c7c?q=80&w=1920&auto=format&fit=crop"
+            src="https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?q=80&w=1000&auto=format&fit=crop"
             alt="Our Brands"
             fill
             className="object-cover brightness-50"
@@ -72,7 +72,7 @@ export default function BrandsPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="relative h-[400px] rounded-lg overflow-hidden lg:order-last">
                 <Image
-                  src="https://images.unsplash.com/photo-1581093588401-31f7a2243a0c?q=80&w=1000&auto=format&fit=crop"
+                  src="https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?q=80&w=1000&auto=format&fit=crop"
                   alt="Sasso Meccanica"
                   fill
                   className="object-cover"
@@ -103,7 +103,7 @@ export default function BrandsPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="relative h-[400px] rounded-lg overflow-hidden lg:order-first">
                 <Image
-                  src="https://images.unsplash.com/photo-1581093196277-9f608bb3a2ed?q=80&w=1000&auto=format&fit=crop"
+                  src="https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?q=80&w=1000&auto=format&fit=crop"
                   alt="Laser Products"
                   fill
                   className="object-cover"
@@ -177,7 +177,7 @@ export default function BrandsPage() {
             <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
               Request a Consultation
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/20">
+            <Button size="lg" variant="outline" className="border-white text-black hover:bg-white/20">
               Download Brand Catalogs
             </Button>
           </div>

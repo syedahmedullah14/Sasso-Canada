@@ -26,13 +26,19 @@ export default function Home() {
             service across Canada
           </p>
           <div className="flex flex-wrap gap-4">
+            <Link href={"/brands"}>
             <Button size="lg" className="bg-white text-black hover:bg-gray-200">
               Explore Our Solutions
               <ChevronRight className="ml-2 h-4 w-4" />
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/20">
+            </Link>
+            
+
+            <Link href={"/contact"}>
+            <Button size="lg" variant="outline" className="border-white text-black hover:bg-white/30">
               Contact Us
             </Button>
+            </Link>
           </div>
         </div>
       </section>
@@ -187,7 +193,7 @@ export default function Home() {
             </div>
             <div className="relative h-[500px] rounded-lg overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1581092160607-ee22731c9c7c?q=80&w=1000&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?q=80&w=600&auto=format&fit=crop"
                 alt="Machinery in action"
                 fill
                 className="object-cover"
@@ -235,7 +241,7 @@ export default function Home() {
       {/* CTA Section */}
       <section className="py-16 bg-blue-600 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Production?</h2>
+          <h2 className="text-3xl font-bold mb-4">to Transform Your Production?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Contact our Canadian experts today to discover how our solutions can enhance your business efficiency and
             product quality
@@ -244,7 +250,7 @@ export default function Home() {
             <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
               Request a Consultation
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/20">
+              <Button size="lg" variant="outline" className="border-white text-black hover:bg-white/20">
               <Phone className="mr-2 h-4 w-4" />
               Call Us: +1 (800) 555-1234
             </Button>
@@ -262,7 +268,8 @@ const featuredProducts = [
     brand: "Laser Products",
     description:
       "Revolutionary digital templating system for precise measurements of countertops, showers, and more. Features 3D modeling capabilities and cloud storage for seamless project management.",
-    image: "https://images.unsplash.com/photo-1581093196277-9f608bb3a2ed?q=80&w=600&auto=format&fit=crop",
+    // image: "https://images.unsplash.com/photo-1581093196277-9f608bb3a2ed?q=80&w=600&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?q=80&w=600&auto=format&fit=crop",
     link: "/products/laser-templator",
   },
   {
@@ -278,7 +285,8 @@ const featuredProducts = [
     brand: "Sasso Meccanica",
     description:
       "High-speed automatic edge polisher with 8 polishing heads for perfect finishes. Features variable speed control and automatic thickness detection for consistent results on any material.",
-    image: "https://images.unsplash.com/photo-1581093588401-31f7a2243a0c?q=80&w=600&auto=format&fit=crop",
+    // image: "https://images.unsplash.com/photo-1581093588401-31f7a2243a0c?q=80&w=600&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?q=80&w=600&auto=format&fit=crop",
     link: "/products/flying-flat",
   },
   {
@@ -294,7 +302,8 @@ const featuredProducts = [
     brand: "Sasso Meccanica",
     description:
       "Precision waterjet cutting for intricate designs and special materials. Features 5-axis cutting head and advanced software for creating complex inlays and detailed artistic elements.",
-    image: "https://images.unsplash.com/photo-1581093458791-9d9a4a96d8d2?q=80&w=600&auto=format&fit=crop",
+    // image: "https://images.unsplash.com/photo-1581093458791-9d9a4a96d8d2?q=80&w=600&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1581093577421-f561a654a353?q=80&w=600&auto=format&fit=crop",
     link: "/products/waterjet",
   },
   {
@@ -311,7 +320,8 @@ const industries = [
   {
     name: "Countertop Fabrication",
     description: "Complete solutions for residential and commercial countertop manufacturing across Canada",
-    image: "https://images.unsplash.com/photo-1556909114-44e3e9399e2b?q=80&w=500&auto=format&fit=crop",
+    // image: "https://images.unsplash.com/photo-1556909114-44e3e9399e2b?q=80&w=500&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?q=80&w=600&auto=format&fit=crop",
     slug: "countertop-fabrication",
   },
   {
@@ -329,19 +339,22 @@ const industries = [
   {
     name: "Tile Production",
     description: "High-volume solutions for tile cutting, polishing, and finishing for Canadian manufacturers",
-    image: "https://images.unsplash.com/photo-1581093588401-31f7a2243a0c?q=80&w=500&auto=format&fit=crop",
+    // image: "https://images.unsplash.com/photo-1581093588401-31f7a2243a0c?q=80&w=500&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=500&auto=format&fit=crop",
     slug: "tile-production",
   },
   {
     name: "Solid Surface",
     description: "Machinery designed for processing engineered and solid surface materials for Canadian fabricators",
-    image: "https://images.unsplash.com/photo-1581093196277-9f608bb3a2ed?q=80&w=500&auto=format&fit=crop",
+    // image: "https://images.unsplash.com/photo-1581093196277-9f608bb3a2ed?q=80&w=500&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=500&auto=format&fit=crop",
     slug: "solid-surface",
   },
   {
     name: "Glass Fabrication",
     description: "Precision equipment for glass cutting, edging, and special applications for the Canadian market",
-    image: "https://images.unsplash.com/photo-1581093458791-9d9a4a96d8d2?q=80&w=500&auto=format&fit=crop",
+    // image: "https://images.unsplash.com/photo-1581093458791-9d9a4a96d8d2?q=80&w=500&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=500&auto=format&fit=crop",
     slug: "glass-fabrication",
   },
 ]

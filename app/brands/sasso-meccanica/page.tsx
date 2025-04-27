@@ -10,7 +10,7 @@ export default function SassoMeccanicaPage() {
       <section className="relative h-[50vh] flex items-center">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1581093588401-31f7a2243a0c?q=80&w=1920&auto=format&fit=crop"
+            src="https://images.unsplash.com/photo-1581093577421-f561a654a353?q=80&w=600&auto=format&fit=crop"
             alt="Sasso Meccanica"
             fill
             className="object-cover brightness-50"
@@ -49,7 +49,7 @@ export default function SassoMeccanicaPage() {
             </div>
             <div className="relative h-[500px] rounded-lg overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1581093588401-31f7a2243a0c?q=80&w=1000&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1581093577421-f561a654a353?q=80&w=600&auto=format&fit=crop"
                 alt="Sasso Meccanica machinery"
                 fill
                 className="object-cover"
@@ -68,7 +68,7 @@ export default function SassoMeccanicaPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="relative h-[400px] rounded-lg overflow-hidden lg:order-first">
                 <Image
-                  src="https://images.unsplash.com/photo-1581093588401-31f7a2243a0c?q=80&w=1000&auto=format&fit=crop"
+                  src="https://images.unsplash.com/photo-1581093577421-f561a654a353?q=80&w=600&auto=format&fit=crop"
                   alt="Flying Flat Edge Polisher"
                   fill
                   className="object-cover"
@@ -155,7 +155,7 @@ export default function SassoMeccanicaPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="relative h-[400px] rounded-lg overflow-hidden lg:order-first">
                 <Image
-                  src="https://images.unsplash.com/photo-1581093458791-9d9a4a96d8d2?q=80&w=1000&auto=format&fit=crop"
+                  src="https://images.unsplash.com/photo-1581093577421-f561a654a353?q=80&w=600&auto=format&fit=crop"
                   alt="Hydra Waterjet System"
                   fill
                   className="object-cover"
@@ -250,7 +250,7 @@ export default function SassoMeccanicaPage() {
             <div className="bg-white rounded-lg overflow-hidden shadow-sm">
               <div className="h-48 relative">
                 <Image
-                  src="https://images.unsplash.com/photo-1556909114-44e3e9399e2b?q=80&w=500&auto=format&fit=crop"
+                  src="https://images.unsplash.com/photo-1581093577421-f561a654a353?q=80&w=600&auto=format&fit=crop"
                   alt="Countertop fabrication"
                   fill
                   className="object-cover"
@@ -325,7 +325,7 @@ export default function SassoMeccanicaPage() {
             <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
               Request a Consultation
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/20">
+            <Button size="lg" variant="outline" className="border-white text-black hover:bg-white/20">
               Schedule a Demonstration
             </Button>
           </div>

@@ -50,7 +50,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-[500px] rounded-lg overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1581092160607-ee22731c9c7c?q=80&w=1000&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1581093577421-f561a654a353?q=80&w=600&auto=format&fit=crop"
                 alt="Our company history"
                 fill
                 className="object-cover"
@@ -98,7 +98,7 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="relative h-[400px] rounded-lg overflow-hidden lg:order-last">
                 <Image
-                  src="https://images.unsplash.com/photo-1581093588401-31f7a2243a0c?q=80&w=1000&auto=format&fit=crop"
+                  src="https://images.unsplash.com/photo-1581093577421-f561a654a353?q=80&w=600&auto=format&fit=crop"
                   alt="Sasso Meccanica"
                   fill
                   className="object-cover"
@@ -128,7 +128,7 @@ export default function AboutPage() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="relative h-[400px] rounded-lg overflow-hidden lg:order-first">
                 <Image
-                  src="https://images.unsplash.com/photo-1581093196277-9f608bb3a2ed?q=80&w=1000&auto=format&fit=crop"
+                  src="https://images.unsplash.com/photo-1581093577421-f561a654a353?q=80&w=600&auto=format&fit=crop"
                   alt="Laser Products"
                   fill
                   className="object-cover"
@@ -272,7 +272,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-[500px] rounded-lg overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1609867639310-f06ca12006a3?q=80&w=1000&auto=format&fit=crop"
+                src="https://images.unsplash.com/photo-1581093577421-f561a654a353?q=80&w=600&auto=format&fit=crop"
                 alt="Canadian map with service locations"
                 fill
                 className="object-cover"
@@ -293,7 +293,7 @@ export default function AboutPage() {
             <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
               Contact Us Today
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/20">
+            <Button size="lg" variant="outline" className="border-white text-black hover:bg-white/20">
               Request a Demonstration
             </Button>
           </div>

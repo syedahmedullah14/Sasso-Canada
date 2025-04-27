@@ -12,7 +12,7 @@ export default function ContactPage() {
       <section className="relative h-[40vh] flex items-center">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/placeholder.svg?height=600&width=1920"
+            src="https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?q=80&w=1000&auto=format&fit=crop"
             alt="Contact Machinery Alliance"
             fill
             className="object-cover brightness-50"
@@ -358,7 +358,7 @@ export default function ContactPage() {
             <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
               Contact Sales Team
             </Button>
-            <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/20">
+            <Button size="lg" variant="outline" className="border-white text-black hover:bg-white/20">
               Request a Callback
             </Button>
           </div>
