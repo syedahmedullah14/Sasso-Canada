@@ -22,7 +22,7 @@ export default function Header() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <div className="flex items-center">
           <Link href="/" className="flex items-center">
-            <span className="text-2xl font-bold text-blue-600">Sasso Canada</span>
+            <span className="text-2xl font-bold text-blue-600">Stone Fabrica</span>
           </Link>
         </div>
 

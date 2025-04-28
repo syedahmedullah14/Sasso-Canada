@@ -14,7 +14,6 @@ export const metadata: Metadata = {
     "Sasso Canada unites Stone Fabrica, Sasso Meccanica, and Laser Products to provide comprehensive stone and surface fabrication solutions across Canada.",
   keywords:
     "stone fabrication, CNC machinery, laser templating, surface processing, countertop fabrication, stone cutting, edge polishing, Canada",
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({

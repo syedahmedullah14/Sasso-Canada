@@ -247,10 +247,10 @@ export default function Home() {
             product quality
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100">
+            <Button size="lg" className="bg-white text-blue-600 hover:bg-white/90">
               Request a Consultation
             </Button>
-              <Button size="lg" variant="outline" className="border-white text-black hover:bg-white/20">
+              <Button size="lg" variant="outline" className="border-white text-blue-600 hover:bg-white/90 hover:text-blue-600">
               <Phone className="mr-2 h-4 w-4" />
               Call Us: +1 (800) 555-1234
             </Button>
