@@ -10,7 +10,7 @@ export default function Home() {
       <section className="relative h-[80vh] flex items-center">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?q=80&w=1920&auto=format&fit=crop"
+            src="https://images.unsplash.com/photo-1627807452369-a2cd0b5ca56f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             alt="Sasso Canada Hero"
             fill
             className="object-cover brightness-50"
@@ -27,7 +27,7 @@ export default function Home() {
           </p>
           <div className="flex flex-wrap gap-4">
             <Link href={"/brands"}>
-            <Button size="lg" className="bg-white text-black hover:bg-gray-200">
+            <Button size="lg" className="bg-white text-blue-700 hover:bg-gray-200">
               Explore Our Solutions
               <ChevronRight className="ml-2 h-4 w-4" />
             </Button>
@@ -35,7 +35,7 @@ export default function Home() {
             
 
             <Link href={"/contact"}>
-            <Button size="lg" variant="outline" className="border-white text-black hover:bg-white/30">
+            <Button size="lg" variant="outline" className="border-white text-blue-700 hover:bg-white/90 hover:text-blue-700">
               Contact Us
             </Button>
             </Link>
